@@ -1,0 +1,14 @@
+<?php
+
+namespace Lencione\LaravelModules\Tests\Fixtures;
+
+use Illuminate\Database\Eloquent\Model;
+
+class TestPost extends Model
+{
+    protected $table = 'posts';
+
+    protected $guarded = [];
+
+    public $timestamps = false;
+}

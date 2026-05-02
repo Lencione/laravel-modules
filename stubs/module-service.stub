@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Modules\{{ module }};
+
+use Lencione\LaravelModules\Services\BaseService;
+
+class {{ target }} extends BaseService
+{
+    //
+}

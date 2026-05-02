@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Modules\{{ module }};
+
+class {{ target }}
+{
+    public static function handle(): void
+    {
+        //
+    }
+}
